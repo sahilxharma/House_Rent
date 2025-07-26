@@ -20,7 +20,7 @@ router.post("/login", loginController);
 
 router.post("/forgotpassword", forgotPasswordController);
 
-router.get('/getAllProperties', getAllPropertiesController)
+router.get('/getAllProperties',authMiddleware, getAllPropertiesController)
 
 router.post("/getuserdata", authMiddleware, authController);
 

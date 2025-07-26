@@ -6,7 +6,7 @@ const bookingSchema = require("../schemas/bookingModel");
 
 //////////for registering/////////////////////////////
 const registerController = async (req, res) => {
-  console.log("📥 Registering control:", req.body);
+  
   try {
     const existsUser = await userSchema.findOne({ email: req.body.email });
     if (existsUser) {
@@ -22,11 +22,11 @@ const registerController = async (req, res) => {
 
     // Handle granted for Owner type
     if (req.body.type?.toLowerCase() === "owner") {
-      console.log("📥 Registering OWNER:", req.body);
+      
       const newUser = new userSchema({ ...req.body, granted: false });
       await newUser.save();
     } else {
-      console.log("👤 Registering NON-OWNER user:", req.body);
+      
       const newUser = new userSchema(req.body);
       await newUser.save();
     }
@@ -85,7 +85,7 @@ const loginController = async (req, res) => {
 
 /////forgotting password
 const forgotPasswordController = async (req, res) => {
-  console.log("📥 forget OWNER:", req.body);
+  
   try {
     const { email, password } = req.body;
 
@@ -120,8 +120,7 @@ const forgotPasswordController = async (req, res) => {
 
 ////auth controller
 const authController = async (req, res) => {
-  console.log("📥 auth OWNER:", req.body);
-  console.log("🧠 userId from middleware:", req.userId);
+  
 
   try {
     const user = await userSchema.findById(req.userId);
@@ -146,7 +145,7 @@ const authController = async (req, res) => {
 };
 /////////get all properties in home
 const getAllPropertiesController = async (req, res) => {
-  console.log("📥 allproperty OWNER:", req.body);
+ 
   try {
     const allProperties = await propertySchema.find({});
     if (!allProperties) {
@@ -164,7 +163,7 @@ const getAllPropertiesController = async (req, res) => {
 
 ///////////booking handle///////////////
 const bookingHandleController = async (req, res) => {
-  console.log("📥 booking OWNER:", req.body);
+ 
   const { propertyid } = req.params;
   const { userDetails, status, userId, ownerId } = req.body;
 
@@ -193,7 +192,7 @@ const bookingHandleController = async (req, res) => {
 
 /////get all bookings for sing tenents//////
 const getAllBookingsController = async (req, res) => {
-  console.log("📥 getall OWNER:", req.body);
+  
   const { userId } = req.body;
   try {
     const getAllBookings = await bookingSchema.find();
