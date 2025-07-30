@@ -95,7 +95,7 @@ Here are some key screenshots of the Property Rental Web App:
 
 This is the landing page of the app where users are welcomed with a clean layout and CTA.
 
-![Home Page](https://drive.google.com/file/d/1SVw7tix4GIJDpOFjjUDNzTKYQIIc8e5I/view?usp=drive_link)
+[Home Page](https://drive.google.com/file/d/1SVw7tix4GIJDpOFjjUDNzTKYQIIc8e5I/view?usp=drive_link)
 
 ---
 
@@ -103,7 +103,7 @@ This is the landing page of the app where users are welcomed with a clean layout
 
 New users can register as renter, owner, or admin.
 
-![Signup Page](https://drive.google.com/file/d/1RXrbHeZ8-QQb-3LUvawScNtfJX8mxZ53/view?usp=drive_link)
+[Signup Page](https://drive.google.com/file/d/1RXrbHeZ8-QQb-3LUvawScNtfJX8mxZ53/view?usp=drive_link)
 
 ---
 
@@ -111,7 +111,7 @@ New users can register as renter, owner, or admin.
 
 Secure login form with validation and role-based access.
 
-![Login Page](https://drive.google.com/file/d/1EL1B5Tnt_Ups4cWz9xBjF0_UOXrYAuhc/view?usp=drive_link)
+[Login Page](https://drive.google.com/file/d/1EL1B5Tnt_Ups4cWz9xBjF0_UOXrYAuhc/view?usp=drive_link)
 
 ---
 
@@ -119,7 +119,7 @@ Secure login form with validation and role-based access.
 
 All listed properties from various owners are visible here for browsing.
 
-![All Properties](https://drive.google.com/file/d/1nX6C-AvtZuIMK6VpGC6zxb3J3-4H0xld/view?usp=drive_link)
+[All Properties](https://drive.google.com/file/d/1nX6C-AvtZuIMK6VpGC6zxb3J3-4H0xld/view?usp=drive_link)
 
 ---
 
@@ -127,7 +127,7 @@ All listed properties from various owners are visible here for browsing.
 
 Users can filter based on price, location, etc.
 
-![Filter Properties](https://drive.google.com/file/d/12Gi5H18eqacnFlxGyx_foI90531J17ph/view?usp=drive_link)
+[Filter Properties](https://drive.google.com/file/d/12Gi5H18eqacnFlxGyx_foI90531J17ph/view?usp=drive_link)
 
 ---
 
@@ -135,7 +135,7 @@ Users can filter based on price, location, etc.
 
 Renters can view a detailed page and book properties after login.
 
-![Book Property](https://drive.google.com/file/d/1h2Ruf-sS5eyoxZ7Q0p7v6Lird4Gc_nls/view?usp=drive_link)
+[Book Property](https://drive.google.com/file/d/1h2Ruf-sS5eyoxZ7Q0p7v6Lird4Gc_nls/view?usp=drive_link)
 
 ---
 
@@ -143,7 +143,7 @@ Renters can view a detailed page and book properties after login.
 
 Owners can manage their property listings, edit, or delete them.
 
-![Owner Dashboard](https://drive.google.com/file/d/1AcuXIsfecHuZZiUb107bDVCKFMu__hfv/view?usp=drive_link)
+[Owner Dashboard](https://drive.google.com/file/d/1AcuXIsfecHuZZiUb107bDVCKFMu__hfv/view?usp=drive_link)
 
 ---
 
@@ -151,7 +151,7 @@ Owners can manage their property listings, edit, or delete them.
 
 Fully responsive mobile-friendly UI for all user types.
 
-![Mobile View](https://drive.google.com/file/d/1EzcLlWzRKAQZlL5sXyU_GDZWR03wQqSM/view?usp=drive_link)
+[Mobile View](https://drive.google.com/file/d/1EzcLlWzRKAQZlL5sXyU_GDZWR03wQqSM/view?usp=drive_link)
 
 ---
 
